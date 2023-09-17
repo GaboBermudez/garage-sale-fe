@@ -8,7 +8,7 @@
       </div>
       <div class="card flex justify-content-center flex-column">
         <h3 class="mb-1">vendedora</h3>
-        <Dropdown v-model="sellerSelected" editable :options="chicas" optionLabel="name" class="w-full" />
+        <Dropdown v-model="sellerSelected" :options="chicas" optionLabel="name" class="w-full" />
       </div>
       <div class="card flex justify-content-center flex-column">
         <h3 class="mb-1" for="buyer">monto</h3>
@@ -53,6 +53,7 @@
     buyerSelected.value = null
     sellerSelected.value = null
     monto.value = ''
+    await loadCompras()
   }
 
   const loadCompras = async () => {
