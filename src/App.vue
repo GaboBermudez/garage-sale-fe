@@ -38,7 +38,7 @@
 
   const monto = ref()
   const buyerSelected = ref()
-  const chicas = ref([{ name: 'JAE' }, { name: 'NATI' }, { name: 'MARINA' }, { name: 'MARI' }, { name: 'VALE' }])
+  const chicas = ref([{ name: 'JAE' }, { name: 'NATI' }, { name: 'MARINA' }, { name: 'MARIPOSA' }, { name: 'VALE' }])
   const sellerSelected = ref()
   const compras = ref()
 
