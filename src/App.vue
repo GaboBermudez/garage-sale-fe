@@ -4,7 +4,7 @@
       <h2>🌈 VENTA DE GARASH ✨</h2>
       <div class="card flex justify-content-center flex-column">
         <h3 class="mb-1">compradora</h3>
-        <Dropdown v-model="buyerSelected" editable :options="chicas" optionLabel="name" class="w-full" />
+        <Dropdown v-model="buyerSelected" :options="chicas" optionLabel="name" class="w-full" />
       </div>
       <div class="card flex justify-content-center flex-column">
         <h3 class="mb-1">vendedora</h3>
